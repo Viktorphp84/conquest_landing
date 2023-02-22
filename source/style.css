@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&family=Open+Sans:wght@300&family=Permanent+Marker&family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&family=Open+Sans:wght@300&family=Permanent+Marker&family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&family=Open+Sans:wght@300&family=Permanent+Marker&family=Playfair+Display:wght@400;700&family=Prata&family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+
+header .navigation {
+  display: flex;
+}
+header .navigation .logo {
+  width: 1.54vw;
+  height: 1.54vw;
+  margin-left: 7.469vw;
+  margin-top: 2.464vw;
+}
+header .navigation .name-logo {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.924vw;
+  line-height: 1.232vw;
+  letter-spacing: 0.14em;
+  color: #555248;
+  margin-top: 2.695vw;
+  margin-left: 0.154vw;
+}
+header .navigation span:nth-of-type(2) {
+  margin-left: 20.328vw;
+}
+header .navigation span:nth-of-type(n+3):nth-of-type(-n+5) {
+  margin-left: 4.9665vw;
+}
+header .navigation span {
+  font-size: 1.078vw;
+  line-height: 1.232vw;
+  color: #555248;
+  margin-top: 2.618vw;
+}
+header .navigation img:nth-of-type(2) {
+  width: 1.232vw;
+  margin-left: 21.098vw;
+}
+header .navigation img:nth-of-type(n+2):nth-of-type(-n+4) {
+  margin-top: 2.926vw;
+}
+header .navigation img:nth-of-type(3) {
+  margin-left: 1.694vw;
+  width: 1.463vw;
+  height: 1.232vw;
+}
+header .navigation img:nth-of-type(4) {
+  width: 1.386vw;
+  height: 1.232vw;
+  margin-left: 1.694vw;
+}
+header .navigation button {
+  position: absolute;
+  top: 2.541vw;
+  left: 92.4vw;
+  font-weight: 400;
+  font-size: 0.616vw;
+  line-height: 0.693vw;
+  text-align: center;
+  color: #1B1A17;
+  border: 1px solid #E6C8B4;
+  background-color: #E6C8B4;
+  width: 1.001vw;
+  height: 1.001vw;
+  border-radius: 0.5005vw;
+  padding: 0;
+}
+
+.main-watch {
+  display: flex;
+  margin-top: 2.31vw;
+  height: 58.212vw;
+  background-image: url(../source/images/ellips_for_watch.svg);
+  background-repeat: no-repeat;
+  background-position: 35.42vw -7.315vw;
+  background-size: 38.192vw 72.688vw;
+}
+.main-watch .watch-description {
+  display: flex;
+  flex-direction: column;
+}
+.main-watch .watch-description span {
+  margin-left: 13.937vw;
+}
+.main-watch .watch-description span:nth-of-type(1) {
+  position: relative;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.388vw;
+  line-height: 4.62vw;
+  color: #1B1A17;
+  margin-bottom: 0.385vw;
+  margin-left: 13.86vw;
+  margin-top: 17.71vw;
+}
+.main-watch .watch-description span:nth-of-type(1) hr {
+  position: absolute;
+  width: 3.85vw;
+  left: -5.005vw;
+  top: 1.155vw;
+}
+.main-watch .watch-description span:nth-of-type(2) {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.31vw;
+  line-height: 3.08vw;
+  color: #1B1A17;
+  margin-bottom: 2.079vw;
+}
+.main-watch .watch-description span:nth-of-type(3) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.078vw;
+  line-height: 1.617vw;
+  color: rgba(27, 26, 23, 0.82);
+  margin-bottom: 2.695vw;
+}
+.main-watch .watch-description button {
+  width: 15.785vw;
+  height: 4.928vw;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.924vw;
+  line-height: 1.078vw;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #444240;
+  margin-left: 13.552vw;
+}
+.main-watch .price {
+  position: relative;
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.232vw;
+  line-height: 1.694vw;
+  color: #1B1A17;
+  top: 10.395vw;
+  left: 4.62vw;
+}
+.main-watch .price hr {
+  position: absolute;
+  width: 3.85vw;
+  left: 6.545vw;
+  top: 0.077vw;
+}
+.main-watch .diameter {
+  position: relative;
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.232vw;
+  line-height: 1.694vw;
+  color: #1B1A17;
+  top: 48.125vw;
+  right: 3.08vw;
+}
+.main-watch .diameter hr {
+  position: absolute;
+  width: 3.85vw;
+  right: 10.01vw;
+  top: 0.077vw;
+}
+.main-watch img {
+  width: 38.5vw;
+  height: 61.215vw;
+  margin-top: -0.924vw;
+  margin-left: 5.005vw;
+}
+
+.popular-models {
+  display: flex;
+  flex-direction: column;
+}
+.popular-models span:nth-of-type(1) {
+  align-self: center;
+  margin-top: 3.85vw;
+}
+.popular-models span:nth-of-type(2) {
+  align-self: self-end;
+  margin-right: 2.695vw;
+}/*# sourceMappingURL=style.css.map */
