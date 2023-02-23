@@ -41,19 +41,20 @@ header {
             margin-left: calculateSize(2vw);
         }
 
-        span:nth-of-type(2) {
+        a:nth-of-type(1) {
             margin-left: calculateSize(264vw);
         }
 
-        span:nth-of-type(n+3):nth-of-type(-n+5) {
+        a:nth-of-type(n+2):nth-of-type(-n+4) {
             margin-left: calculateSize(64.5vw);
         }
 
-        span {
+        a {
             font-size: calculateSize(14vw);
             line-height: calculateSize(16vw);
             color: #555248;
             margin-top: calculateSize(34vw);
+            text-decoration: none;
         }
 
         img:nth-of-type(2) {
@@ -100,7 +101,7 @@ header {
     display: flex;
     margin-top: calculateSize(30vw);
     height: calculateSize(756vw);
-    background-image: url(../source/images/ellips_for_watch.svg);
+    background-image: url(images/ellips_for_watch.svg);
     background-repeat: no-repeat;
     background-position: calculateSize(460vw) calculateSize(-95vw);
     background-size: calculateSize(496vw) calculateSize(944vw);
@@ -221,11 +222,544 @@ header {
 
     span:nth-of-type(1) {
         align-self: center;
-        margin-top: calculateSize(50vw);
+        margin-top: calculateSize(74vw);
+        margin-left: calculateSize(60vw);
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: calculateSize(32vw);
+        line-height: calculateSize(43vw);
+        color: #1B1A17;
     }
 
     span:nth-of-type(2) {
         align-self: self-end;
         margin-right: calculateSize(35vw);
+        margin-top: calculateSize(-8vw);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: calculateSize(16vw);
+        line-height: calculateSize(19vw);
+        color: #444240;
+    }
+
+    .watch-group {
+        display: flex;
+        
+        .watch1-modul {
+            display: flex;
+            flex-direction: column;
+            width: calculateSize(365vw);
+            height: calculateSize(467vw);
+            background-image: url(images/ellipse_watch1.png);
+            background-repeat: no-repeat;
+            background-position: calculateSize(28vw) calculateSize(75vw);
+            background-size: calculateSize(310vw) calculateSize(310vw);
+            margin-top: calculateSize(15vw);
+            margin-left: calculateSize(95vw);
+            background-color: #FDFDFB;
+
+            img {
+                width: calculateSize(327vw);
+                height: calculateSize(327vw);
+                margin-left: calculateSize(20vw);
+                margin-top: calculateSize(-10vw);
+                filter: drop-shadow(2px 2px 10px rgba(92, 92, 80, 0.23));
+            }
+            
+            span:nth-of-type(1) {
+                font-family: 'Playfair Display';
+                font-style: normal;
+                font-weight: 700;
+                font-size: calculateSize(14vw);
+                line-height: cal24vw;
+                letter-spacing: 0.03em;
+                color: rgba(27, 26, 23, 0.82);
+                margin-top: calculateSize(27vw);
+                margin-left: calculateSize(-245vw);
+            }
+
+            span:nth-of-type(2) {
+                font-family: 'Prata';
+                font-style: normal;
+                font-weight: 400;
+                font-size: calculateSize(12vw);
+                line-height: calculateSize(16vw);
+                color: rgba(27, 26, 23, 0.82);
+                margin-right: calculateSize(272vw);
+
+                span {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: calculateSize(14vw);
+                    line-height: calculateSize(16vw);
+                    color: rgba(27, 26, 23, 0.82);
+                    margin-left: 0;
+                }
+            }
+
+            span:nth-of-type(3) {
+                position: relative;
+                font-family: 'Playfair Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: calculateSize(16vw);
+                line-height: calculateSize(21vw);
+                color: #1B1A17;
+                margin-left: calculateSize(86vw);
+                margin-top: calculateSize(10vw);
+
+                hr {
+                    position: absolute;
+                    width: calculateSize(27vw);
+                    right: calculateSize(297vw);
+                    top: calculateSize(4vw);
+                }
+            }
+        }
+
+        .watch-modul2 {
+            display: flex;
+            flex-direction: column;
+            width: calculateSize(365vw);
+            height: calculateSize(467vw);
+            background-image: url(images/ellipse_watch1.png);
+            background-repeat: no-repeat;
+            background-position: calculateSize(28vw) calculateSize(75vw);
+            background-size: calculateSize(310vw) calculateSize(310vw);
+            margin-top: calculateSize(15vw);
+            margin-left: calculateSize(35vw);
+            background-color: #FDFDFB;
+
+            span:nth-of-type(1) {
+                font-family: 'Playfair Display';
+                font-style: normal;
+                font-weight: 700;
+                font-size: calculateSize(14vw);
+                line-height: calculateSize(24vw);
+                letter-spacing: 0.03em;
+                color: rgba(27, 26, 23, 0.82);
+                margin-top: calculateSize(37vw);
+                margin-left: calculateSize(-235vw);
+            }
+
+            span:nth-of-type(2) {
+                font-family: 'Prata';
+                font-style: normal;
+                font-weight: 400;
+                font-size: calculateSize(12vw);
+                line-height: calculateSize(16vw);
+                color: rgba(27, 26, 23, 0.82);
+                margin-right: calculateSize(281vw);
+                margin-top: calculateSize(3vw);
+
+                span {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: calculateSize(14vw);
+                    line-height: calculateSize(16vw);
+                    color: rgba(27, 26, 23, 0.82);
+                    margin-left: 0;
+                }
+            }
+
+            img {
+                width: calculateSize(327vw);
+                height: calculateSize(327vw);
+                margin-left: calculateSize(20vw);
+                margin-top: calculateSize(-10vw);
+                filter: drop-shadow(2px 2px 10px rgba(92, 92, 80, 0.23));
+            }
+
+            span:nth-of-type(3) {
+                position: relative;
+                font-family: 'Playfair Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: calculateSize(16vw);
+                line-height: calculateSize(21vw);
+                color: #1B1A17;
+                margin-left: calculateSize(80vw);
+                margin-top: calculateSize(10vw);
+                
+                hr {
+                    position: absolute;
+                    width: calculateSize(27vw);
+                    right: calculateSize(303vw);
+                    top: calculateSize(4vw);
+                }
+            }
+        }
+
+        .watch-modul3 {
+            display: flex;
+            flex-direction: column;
+            width: calculateSize(365vw);
+            height: calculateSize(467vw);
+            background-image: url(images/ellipse_watch1.png);
+            background-repeat: no-repeat;
+            background-position: calculateSize(28vw) calculateSize(75vw);
+            background-size: calculateSize(310vw) calculateSize(310vw);
+            margin-top: calculateSize(15vw);
+            margin-left: calculateSize(25vw);
+            background-color: #FDFDFB;
+
+            span:nth-of-type(1) {
+                font-family: 'Playfair Display';
+                font-style: normal;
+                font-weight: 700;
+                font-size: calculateSize(14vw);
+                line-height: calculateSize(24vw);
+                letter-spacing: 0.03em;
+                color: rgba(27, 26, 23, 0.82);
+                margin-top: calculateSize(37vw);
+                margin-left: calculateSize(-230vw);
+            }
+
+            span:nth-of-type(2) {
+                font-family: 'Prata';
+                font-style: normal;
+                font-weight: 400;
+                font-size: calculateSize(12vw);
+                line-height: calculateSize(16vw);
+                color: rgba(27, 26, 23, 0.82);
+                margin-right: calculateSize(275vw);
+                margin-top: calculateSize(3vw);
+
+                span {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: calculateSize(14vw);
+                    line-height: calculateSize(16vw);
+                    color: rgba(27, 26, 23, 0.82);
+                    margin-left: 0;
+                }
+            }
+
+            img {
+                width: calculateSize(327vw);
+                height: calculateSize(327vw);
+                margin-left: calculateSize(25vw);
+                margin-top: calculateSize(-10vw);
+                filter: drop-shadow(2px 2px 10px rgba(92, 92, 80, 0.23));
+            }
+
+            span:nth-of-type(3) {
+                position: relative;
+                font-family: 'Playfair Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: calculateSize(16vw);
+                line-height: calculateSize(21vw);
+                color: #1B1A17;
+                margin-left: calculateSize(85vw);
+                margin-top: calculateSize(10vw);
+                
+                hr {
+                    position: absolute;
+                    width: calculateSize(27vw);
+                    right: calculateSize(300vw);
+                    top: calculateSize(4vw);
+                }
+            }
+        }
+    }
+}
+
+.banner {
+    display: flex;
+    position: relative;
+    height: calculateSize(510vw);
+    margin-top: calculateSize(77vw);
+
+    .empty-block {
+        position: absolute;
+        width: calculateSize(460vw);
+        height: calculateSize(510vw);
+        background-color: #F7F5EF;
+        top:calculateSize(0vw);
+        left: calculateSize(0vw);
+    }
+
+    img {
+        position: absolute;
+        width: calculateSize(513vw);
+        height: calculateSize(410vw);
+        top: calculateSize(50vw);
+        left: calculateSize(173vw);
+    }
+
+    span:nth-of-type(1) {
+        position: absolute;
+        top: calculateSize(477vw);
+        left: calculateSize(567vw);
+        font-family: 'Prata';
+        font-style: normal;
+        font-weight: 400;
+        font-size: calculateSize(12vw);
+        line-height: calculateSize(16vw);
+        color: rgba(27, 26, 23, 0.82);
+
+        img {
+            position: absolute;
+            width: calculateSize(7vw);
+            height: calculateSize(12vw);
+            top: 0;
+        }
+
+        img:nth-of-type(1) {
+            left: calculateSize(-25vw);
+        }
+
+        img:nth-of-type(2) {
+            left: calculateSize(32vw);
+            
+        }
+    }
+
+    .banner-description {
+        display: flex;
+        flex-direction: column;
+        width: calculateSize(898vw);
+        height: calculateSize(510vw);
+        background-image: url(images/lines_banner.png);
+        background-color: #FDFDFB;
+        background-repeat: no-repeat;
+        background-size: calculateSize(898vw) calculateSize(519vw);
+        background-position: calculateSize(25vw) calculateSize(-5vw);
+        margin-left: calculateSize(422vw);
+
+        span:nth-of-type(1) {
+            font-family: 'Playfair Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: calculateSize(31.5vw);
+            line-height: calculateSize(43vw);
+            color: #1B1A17;
+            margin-top: calculateSize(-340vw);
+            margin-bottom: calculateSize(25vw);
+            margin-left: calculateSize(187vw);
+        }
+
+        span:nth-of-type(2) {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: calculateSize(16vw);
+            line-height: 150%;
+            color: #444240;
+            margin-top: calculateSize(205vw);
+            margin-bottom: calculateSize(35vw);
+            margin-left: calculateSize(333vw);
+        }
+
+        button {
+            width: calculateSize(205vw);
+            height: calculateSize(64vw);
+            margin-left: calculateSize(333vw);
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: calculateSize(12vw);
+            line-height: calculateSize(14vw);
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            padding-left: calculateSize(5vw);
+            padding-top: calculateSize(3vw);
+            background-color: #D4B098;
+            border: 0.5px solid #D4B098;;
+        }
+    }
+}
+
+.subscription-group {
+    display: flex;
+    margin-top: calculateSize(80vw);
+
+    .subscription {
+        display: flex;
+        flex-direction: column;
+
+        span:nth-of-type(1) {
+            font-family: 'Playfair Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: calculateSize(31.5vw);
+            line-height: calculateSize(43vw);
+            color: #1B1A17;
+            margin-top: calculateSize(138vw);
+            margin-left: calculateSize(95vw);
+        }
+
+        span:nth-of-type(2) {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: calculateSize(15.7vw);
+            line-height: calculateSize(27vw);
+            color: #444240;
+            margin-left: calculateSize(97vw);
+            margin-top: calculateSize(26vw);
+
+            span {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: calculateSize(16vw);
+                line-height: calculateSize(27vw);
+                color: #262421;
+                margin-left: 0;
+            }
+        }
+
+        div {
+            margin-top: calculateSize(108vw);
+            margin-left: calculateSize(97vw);
+
+            img:nth-of-type(1) {
+                margin-right: calculateSize(12vw);
+                width: calculateSize(23vw);
+                height: calculateSize(24vw);
+            }
+
+            img:nth-of-type(2) {
+                margin-right: calculateSize(14vw);
+                width: calculateSize(12vw);
+                height: calculateSize(22vw);
+            }
+
+            img:nth-of-type(3) {
+                width: calculateSize(22vw);
+                height: calculateSize(18vw);
+            }
+        }
+    }
+
+    .photo-subscription {
+        display: grid;
+        width: calculateSize(629vw);
+        height: calculateSize(460vw);
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: calculateSize(10vw);
+        margin-left: calculateSize(70vw);
+
+        img:nth-of-type(1) {
+            grid-column: 1;
+            grid-row: 1; 
+            width: calculateSize(240vw);
+            height: calculateSize(226vw);  
+        }
+
+        img:nth-of-type(2) {
+            grid-column: 1;
+            grid-row: 2;
+            width: calculateSize(240vw);
+            height: calculateSize(220vw);
+        }
+
+        img:nth-of-type(3) {
+            grid-column: 2;
+            grid-row: 1 / span 2;
+            width: calculateSize(370vw);
+            height: calculateSize(457vw);
+        }
+    }
+}
+
+footer {
+    display: flex;
+    margin-top: calculateSize(82vw);
+    height: calculateSize(275vw);
+    background-color: #444240;
+
+    $margin-top: calculateSize(79vw);
+
+    a {
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: calculateSize(12vw);
+        line-height: calculateSize(14vw);
+        color: rgba(255, 255, 255, 0.75);
+        margin-bottom: calculateSize(10vw);
+    }
+
+    span {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: calculateSize(14vw);
+        line-height: calculateSize(16vw);
+        letter-spacing: 0.07em;
+        color: #FFFFFFBF;
+        margin-bottom: calculateSize(27vw);
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column-1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: $margin-top;
+        margin-left: calculateSize(181vw);
+
+        span {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: calculateSize(12vw);
+            line-height: calculateSize(14vw);
+            color: rgba(255, 255, 255, 0.75);
+            margin-bottom: calculateSize(12vw);
+        }
+
+        div {
+            margin-top: calculateSize(-10vw);
+            margin-bottom: calculateSize(23vw);
+
+            img {
+                width: calculateSize(25vw);
+                height: calculateSize(25vw);
+            }
+
+            span {
+                font-family: 'Playfair Display';
+                font-style: normal;
+                font-weight: 700;
+                font-size: calculateSize(14vw);
+                line-height: calculateSize(19vw);
+                letter-spacing: 0.14em;
+            }
+        }
+    }
+
+    .column-2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: $margin-top;
+        margin-left: calculateSize(125vw);
+    }
+    
+    .column-3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: $margin-top;
+        margin-left: calculateSize(135vw);
+    }
+
+    .column-4 {
+        display: flex;
+        flex-direction: column;
+        margin-top: $margin-top;
+        margin-left: calculateSize(145vw);
     }
 }

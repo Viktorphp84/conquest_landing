@@ -30,17 +30,18 @@ header .navigation .name-logo {
   margin-top: 2.695vw;
   margin-left: 0.154vw;
 }
-header .navigation span:nth-of-type(2) {
+header .navigation a:nth-of-type(1) {
   margin-left: 20.328vw;
 }
-header .navigation span:nth-of-type(n+3):nth-of-type(-n+5) {
+header .navigation a:nth-of-type(n+2):nth-of-type(-n+4) {
   margin-left: 4.9665vw;
 }
-header .navigation span {
+header .navigation a {
   font-size: 1.078vw;
   line-height: 1.232vw;
   color: #555248;
   margin-top: 2.618vw;
+  text-decoration: none;
 }
 header .navigation img:nth-of-type(2) {
   width: 1.232vw;
@@ -80,7 +81,7 @@ header .navigation button {
   display: flex;
   margin-top: 2.31vw;
   height: 58.212vw;
-  background-image: url(../source/images/ellips_for_watch.svg);
+  background-image: url(images/ellips_for_watch.svg);
   background-repeat: no-repeat;
   background-position: 35.42vw -7.315vw;
   background-size: 38.192vw 72.688vw;
@@ -189,9 +190,484 @@ header .navigation button {
 }
 .popular-models span:nth-of-type(1) {
   align-self: center;
-  margin-top: 3.85vw;
+  margin-top: 5.698vw;
+  margin-left: 4.62vw;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.464vw;
+  line-height: 3.311vw;
+  color: #1B1A17;
 }
 .popular-models span:nth-of-type(2) {
   align-self: self-end;
   margin-right: 2.695vw;
+  margin-top: -0.616vw;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.232vw;
+  line-height: 1.463vw;
+  color: #444240;
+}
+.popular-models .watch-group {
+  display: flex;
+}
+.popular-models .watch-group .watch1-modul {
+  display: flex;
+  flex-direction: column;
+  width: 28.105vw;
+  height: 35.959vw;
+  background-image: url(images/ellipse_watch1.png);
+  background-repeat: no-repeat;
+  background-position: 2.156vw 5.775vw;
+  background-size: 23.87vw 23.87vw;
+  margin-top: 1.155vw;
+  margin-left: 7.315vw;
+  background-color: #FDFDFB;
+}
+.popular-models .watch-group .watch1-modul img {
+  width: 25.179vw;
+  height: 25.179vw;
+  margin-left: 1.54vw;
+  margin-top: -0.77vw;
+  filter: drop-shadow(2px 2px 10px rgba(92, 92, 80, 0.23));
+}
+.popular-models .watch-group .watch1-modul span:nth-of-type(1) {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.078vw;
+  line-height: cal24vw;
+  letter-spacing: 0.03em;
+  color: rgba(27, 26, 23, 0.82);
+  margin-top: 2.079vw;
+  margin-left: -18.865vw;
+}
+.popular-models .watch-group .watch1-modul span:nth-of-type(2) {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.924vw;
+  line-height: 1.232vw;
+  color: rgba(27, 26, 23, 0.82);
+  margin-right: 20.944vw;
+}
+.popular-models .watch-group .watch1-modul span:nth-of-type(2) span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.078vw;
+  line-height: 1.232vw;
+  color: rgba(27, 26, 23, 0.82);
+  margin-left: 0;
+}
+.popular-models .watch-group .watch1-modul span:nth-of-type(3) {
+  position: relative;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.232vw;
+  line-height: 1.617vw;
+  color: #1B1A17;
+  margin-left: 6.622vw;
+  margin-top: 0.77vw;
+}
+.popular-models .watch-group .watch1-modul span:nth-of-type(3) hr {
+  position: absolute;
+  width: 2.079vw;
+  right: 22.869vw;
+  top: 0.308vw;
+}
+.popular-models .watch-group .watch-modul2 {
+  display: flex;
+  flex-direction: column;
+  width: 28.105vw;
+  height: 35.959vw;
+  background-image: url(images/ellipse_watch1.png);
+  background-repeat: no-repeat;
+  background-position: 2.156vw 5.775vw;
+  background-size: 23.87vw 23.87vw;
+  margin-top: 1.155vw;
+  margin-left: 2.695vw;
+  background-color: #FDFDFB;
+}
+.popular-models .watch-group .watch-modul2 span:nth-of-type(1) {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.078vw;
+  line-height: 1.848vw;
+  letter-spacing: 0.03em;
+  color: rgba(27, 26, 23, 0.82);
+  margin-top: 2.849vw;
+  margin-left: -18.095vw;
+}
+.popular-models .watch-group .watch-modul2 span:nth-of-type(2) {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.924vw;
+  line-height: 1.232vw;
+  color: rgba(27, 26, 23, 0.82);
+  margin-right: 21.637vw;
+  margin-top: 0.231vw;
+}
+.popular-models .watch-group .watch-modul2 span:nth-of-type(2) span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.078vw;
+  line-height: 1.232vw;
+  color: rgba(27, 26, 23, 0.82);
+  margin-left: 0;
+}
+.popular-models .watch-group .watch-modul2 img {
+  width: 25.179vw;
+  height: 25.179vw;
+  margin-left: 1.54vw;
+  margin-top: -0.77vw;
+  filter: drop-shadow(2px 2px 10px rgba(92, 92, 80, 0.23));
+}
+.popular-models .watch-group .watch-modul2 span:nth-of-type(3) {
+  position: relative;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.232vw;
+  line-height: 1.617vw;
+  color: #1B1A17;
+  margin-left: 6.16vw;
+  margin-top: 0.77vw;
+}
+.popular-models .watch-group .watch-modul2 span:nth-of-type(3) hr {
+  position: absolute;
+  width: 2.079vw;
+  right: 23.331vw;
+  top: 0.308vw;
+}
+.popular-models .watch-group .watch-modul3 {
+  display: flex;
+  flex-direction: column;
+  width: 28.105vw;
+  height: 35.959vw;
+  background-image: url(images/ellipse_watch1.png);
+  background-repeat: no-repeat;
+  background-position: 2.156vw 5.775vw;
+  background-size: 23.87vw 23.87vw;
+  margin-top: 1.155vw;
+  margin-left: 1.925vw;
+  background-color: #FDFDFB;
+}
+.popular-models .watch-group .watch-modul3 span:nth-of-type(1) {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.078vw;
+  line-height: 1.848vw;
+  letter-spacing: 0.03em;
+  color: rgba(27, 26, 23, 0.82);
+  margin-top: 2.849vw;
+  margin-left: -17.71vw;
+}
+.popular-models .watch-group .watch-modul3 span:nth-of-type(2) {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.924vw;
+  line-height: 1.232vw;
+  color: rgba(27, 26, 23, 0.82);
+  margin-right: 21.175vw;
+  margin-top: 0.231vw;
+}
+.popular-models .watch-group .watch-modul3 span:nth-of-type(2) span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.078vw;
+  line-height: 1.232vw;
+  color: rgba(27, 26, 23, 0.82);
+  margin-left: 0;
+}
+.popular-models .watch-group .watch-modul3 img {
+  width: 25.179vw;
+  height: 25.179vw;
+  margin-left: 1.925vw;
+  margin-top: -0.77vw;
+  filter: drop-shadow(2px 2px 10px rgba(92, 92, 80, 0.23));
+}
+.popular-models .watch-group .watch-modul3 span:nth-of-type(3) {
+  position: relative;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.232vw;
+  line-height: 1.617vw;
+  color: #1B1A17;
+  margin-left: 6.545vw;
+  margin-top: 0.77vw;
+}
+.popular-models .watch-group .watch-modul3 span:nth-of-type(3) hr {
+  position: absolute;
+  width: 2.079vw;
+  right: 23.1vw;
+  top: 0.308vw;
+}
+
+.banner {
+  display: flex;
+  position: relative;
+  height: 39.27vw;
+  margin-top: 5.929vw;
+}
+.banner .empty-block {
+  position: absolute;
+  width: 35.42vw;
+  height: 39.27vw;
+  background-color: #F7F5EF;
+  top: 0vw;
+  left: 0vw;
+}
+.banner img {
+  position: absolute;
+  width: 39.501vw;
+  height: 31.57vw;
+  top: 3.85vw;
+  left: 13.321vw;
+}
+.banner span:nth-of-type(1) {
+  position: absolute;
+  top: 36.729vw;
+  left: 43.659vw;
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.924vw;
+  line-height: 1.232vw;
+  color: rgba(27, 26, 23, 0.82);
+}
+.banner span:nth-of-type(1) img {
+  position: absolute;
+  width: 0.539vw;
+  height: 0.924vw;
+  top: 0;
+}
+.banner span:nth-of-type(1) img:nth-of-type(1) {
+  left: -1.925vw;
+}
+.banner span:nth-of-type(1) img:nth-of-type(2) {
+  left: 2.464vw;
+}
+.banner .banner-description {
+  display: flex;
+  flex-direction: column;
+  width: 69.146vw;
+  height: 39.27vw;
+  background-image: url(images/lines_banner.png);
+  background-color: #FDFDFB;
+  background-repeat: no-repeat;
+  background-size: 69.146vw 39.963vw;
+  background-position: 1.925vw -0.385vw;
+  margin-left: 32.494vw;
+}
+.banner .banner-description span:nth-of-type(1) {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4255vw;
+  line-height: 3.311vw;
+  color: #1B1A17;
+  margin-top: -26.18vw;
+  margin-bottom: 1.925vw;
+  margin-left: 14.399vw;
+}
+.banner .banner-description span:nth-of-type(2) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.232vw;
+  line-height: 150%;
+  color: #444240;
+  margin-top: 15.785vw;
+  margin-bottom: 2.695vw;
+  margin-left: 25.641vw;
+}
+.banner .banner-description button {
+  width: 15.785vw;
+  height: 4.928vw;
+  margin-left: 25.641vw;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.924vw;
+  line-height: 1.078vw;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  padding-left: 0.385vw;
+  padding-top: 0.231vw;
+  background-color: #D4B098;
+  border: 0.5px solid #D4B098;
+}
+
+.subscription-group {
+  display: flex;
+  margin-top: 6.16vw;
+}
+.subscription-group .subscription {
+  display: flex;
+  flex-direction: column;
+}
+.subscription-group .subscription span:nth-of-type(1) {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4255vw;
+  line-height: 3.311vw;
+  color: #1B1A17;
+  margin-top: 10.626vw;
+  margin-left: 7.315vw;
+}
+.subscription-group .subscription span:nth-of-type(2) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2089vw;
+  line-height: 2.079vw;
+  color: #444240;
+  margin-left: 7.469vw;
+  margin-top: 2.002vw;
+}
+.subscription-group .subscription span:nth-of-type(2) span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.232vw;
+  line-height: 2.079vw;
+  color: #262421;
+  margin-left: 0;
+}
+.subscription-group .subscription div {
+  margin-top: 8.316vw;
+  margin-left: 7.469vw;
+}
+.subscription-group .subscription div img:nth-of-type(1) {
+  margin-right: 0.924vw;
+  width: 1.771vw;
+  height: 1.848vw;
+}
+.subscription-group .subscription div img:nth-of-type(2) {
+  margin-right: 1.078vw;
+  width: 0.924vw;
+  height: 1.694vw;
+}
+.subscription-group .subscription div img:nth-of-type(3) {
+  width: 1.694vw;
+  height: 1.386vw;
+}
+.subscription-group .photo-subscription {
+  display: grid;
+  width: 48.433vw;
+  height: 35.42vw;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 0.77vw;
+  margin-left: 5.39vw;
+}
+.subscription-group .photo-subscription img:nth-of-type(1) {
+  grid-column: 1;
+  grid-row: 1;
+  width: 18.48vw;
+  height: 17.402vw;
+}
+.subscription-group .photo-subscription img:nth-of-type(2) {
+  grid-column: 1;
+  grid-row: 2;
+  width: 18.48vw;
+  height: 16.94vw;
+}
+.subscription-group .photo-subscription img:nth-of-type(3) {
+  grid-column: 2;
+  grid-row: 1/span 2;
+  width: 28.49vw;
+  height: 35.189vw;
+}
+
+footer {
+  display: flex;
+  margin-top: 6.314vw;
+  height: 21.175vw;
+  background-color: #444240;
+}
+footer a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.924vw;
+  line-height: 1.078vw;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 0.77vw;
+}
+footer span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.078vw;
+  line-height: 1.232vw;
+  letter-spacing: 0.07em;
+  color: rgba(255, 255, 255, 0.7490196078);
+  margin-bottom: 2.079vw;
+}
+footer nav {
+  display: flex;
+  flex-direction: column;
+}
+footer .column-1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6.083vw;
+  margin-left: 13.937vw;
+}
+footer .column-1 span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.924vw;
+  line-height: 1.078vw;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 0.924vw;
+}
+footer .column-1 div {
+  margin-top: -0.77vw;
+  margin-bottom: 1.771vw;
+}
+footer .column-1 div img {
+  width: 1.925vw;
+  height: 1.925vw;
+}
+footer .column-1 div span {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.078vw;
+  line-height: 1.463vw;
+  letter-spacing: 0.14em;
+}
+footer .column-2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6.083vw;
+  margin-left: 9.625vw;
+}
+footer .column-3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6.083vw;
+  margin-left: 10.395vw;
+}
+footer .column-4 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6.083vw;
+  margin-left: 11.165vw;
 }/*# sourceMappingURL=style.css.map */
